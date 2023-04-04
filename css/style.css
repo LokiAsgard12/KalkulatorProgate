@@ -59,24 +59,24 @@ body {
 }
 .row {
   display: flex;
-}
-button,
+}button,
 #Persen {
   background-color: transparent;
-  border: 1px solid white;
-
-  /* border-radius: 60px; */
+  border: 1px solid transparent;
+  border-radius: 60px;
+  box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
   color: #fff;
   font-size: 32px;
   height: 80px;
   outline: none;
+  transition: all 150ms ease-in-out;
   width: 25%;
 }
 button:hover {
-  background-color: darkgray;
+  box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
 }
 #Persen:hover {
-  background-color: darkgray;
+  box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
 }
 .Zero,
 .ClearAll {
@@ -84,9 +84,9 @@ button:hover {
 }
 .Operator,
 .Equal-Sign {
-  background-color: orange;
+  background-color: transparent;
 }
 .Operator:hover,
 .Equal-Sign:hover {
-  background-color: darkorange;
+  box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
 }
