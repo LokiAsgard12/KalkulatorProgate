@@ -86,6 +86,8 @@ button:hover {
   background-color: transparent;
 }
 .Operator:hover,
-.Equal-Sign:hover {
+.Equal-Sign:hover,
+.Operator:focus,
+.Equal-Sign:focus {
   background-color: darkorange;
 }
