@@ -93,3 +93,12 @@ Decimal.addEventListener("click",(event)=>{
     InputDecimal(event.target.value);
     UpdateScreen(CurrentNumber)
 })
+//Percentage
+const Persen = document.getElementById('Persen');
+Persen.addEventListener('click',(event)=>{
+    hitungPersen();
+})
+const hitungPersen =()=>{
+    let Hasil = PrevNumber/100;
+    UpdateScreen(Hasil);
+}
